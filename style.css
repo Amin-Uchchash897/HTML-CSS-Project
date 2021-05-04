@@ -1,0 +1,181 @@
+body{
+    background-color:#eee;
+}
+
+h1{
+    text-align:center;
+    color:gold;
+}
+
+h1:hover{
+    color:green;
+}
+
+.img{
+    text-align:center;
+}
+
+iframe{
+    height:350px;
+    width:650px;
+}
+
+p{
+    text-align:justify;
+}
+
+caption{
+    font-size:20px;
+    margin-bottom:5px;
+}
+
+caption:hover{
+    color:blue;
+    font-size:30px;
+}
+
+table{
+    border:5px solid black;
+    border-collapse:collapse;
+    width:40%;
+}
+
+th,td{
+    border:5px solid black;
+    padding:10px;
+}
+
+tr:nth-child(even){
+    background-color:gold;
+}
+
+tr:nth-child(odd){
+    background-color:gray;
+}
+
+th{
+    background-color:green;
+}
+
+th,td{
+    color:white;
+}
+
+tr:hover{
+    background-color:tomato;
+}
+
+select{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+input[type="text"]{
+    width:30%;
+    border:1px solid #ccc;
+    padding:10px;
+    border-radius:5px;
+}
+
+input[type="text"]:hover{
+    background-color:salmon;
+}
+
+input[type="text"]::placeholder :hover{
+    color:black;
+}
+
+input[type="password"]{
+    width:30%;
+    border:1px solid #ccc;
+    padding:10px;
+    border-radius:5px;
+}
+
+input[type="password"]:hover{
+    background-color:salmon;
+}
+
+input[type="email"]{
+    width:30%;
+    border:1px solid #ccc;
+    padding:10px;
+    border-radius:5px;
+}
+
+input[type="email"]:hover{
+    background-color:salmon;
+}
+
+textarea{
+    border:1px solid #ccc;
+    resize:none;
+    border-radius:5px;
+}
+
+textarea:hover{
+    background-color:tomato;
+    font-size:20px
+}
+
+input[type="submit"], [type="reset"]{
+    padding:10px;
+    border:none;
+    background-color:#ccc;
+    border-radius:5px;
+}
+
+input[type="submit"]:hover{
+    background-color:green;
+}
+
+input[type="reset"]:hover{
+    background-color:green;
+}
+
+.form{
+    padding:30px;
+}
+
+footer{
+    background-color:gray;
+    color:white;
+    padding:10px;
+}
+
+.mark{
+    color:yellow;
+    font-size:30px;
+}
+
+mark{
+    color:green;
+}
+
+.tooltip{
+    position:relative;
+}
+
+.tooltip .tooltiptext{
+    visibility:hidden;
+    width:200px;
+    height:20px;
+    background-color:indigo;
+    color:#fff;
+    padding:10px;
+    border-radius:20px;
+    z-index:1;
+    position:absolute;
+    text-align:center;
+}
+
+.tooltip:hover .tooltiptext{
+    visibility:visible;
+}
+
+footer{
+    text-align:center;
+}
+
+
